@@ -1,6 +1,21 @@
 ### Exercise 7. Identity Matrix, Zero Matrix, and Powers
 
-**Result**
+## Question
+
+For the matrix:
+
+$$
+A=
+\begin{pmatrix}
+2 & 1 \\
+0 & 2 \\
+\end{pmatrix}
+$$
+
+Compute $AI$, $IA$, $A+0$, $A^2$, and $A^3$. 
+Explain the roles of the matrices $I$ and $0$, and describe the pattern you observe in successive powers of $A$.
+
+## Solution
 
 $$
 AI =
@@ -68,6 +83,8 @@ A^3 &= A^2 A \\
 \end{aligned}
 $$
 
-**Explanation**
+The identity matrix $I$ acts like the number 1 in normal multiplication (multiplying by it changes nothing), and the zero matrix acts like the number 0 in addition (adding it changes nothing). 
 
-The identity matrix $I$ is like the number 1 (multiplying by it changes nothing), and the zero matrix is like the number 0 (adding it changes nothing). When you keep multiplying matrix $A$ by itself, you can start to see a clear pattern forming in the numbers as they grow.
+When finding the successive powers of $A$, a specific pattern emerges:
+- The main diagonal values double each time ($2, 4, 8$), representing $2^n$.
+- The upper-right entries grow in the sequence $1, 4, 12$. These follow the pattern $n \cdot 2^{n-1}$.

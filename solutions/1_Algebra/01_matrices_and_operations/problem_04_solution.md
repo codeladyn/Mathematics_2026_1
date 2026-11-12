@@ -1,6 +1,24 @@
 ### Exercise 4. Matrix Multiplication and Noncommutativity
 
-**Result**
+## Question
+
+For the matrices:
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 \\
+0 & 1 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+2 & 0 \\
+3 & 1 \\
+\end{pmatrix}
+$$
+
+Compute $AB$ and $BA$. Is $AB=BA$? Use this example to explain what noncommutativity of matrix multiplication means.
+
+## Solution
 
 $$
 \begin{aligned}
@@ -32,6 +50,4 @@ BA &=
 \end{aligned}
 $$
 
-**Explanation**
-
-In normal math, $2 \times 3$ is the same as $3 \times 2$. In matrix math, order matters! As you can see here, $AB$ is completely different from $BA$. This is what "noncommutativity" means.
+Clearly, $AB \neq BA$. In normal math, $2 \times 3$ is the same as $3 \times 2$. In matrix math, order matters. Changing the order of the factors typically changes the final product, which is what "noncommutativity" means.

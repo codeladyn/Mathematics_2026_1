@@ -1,6 +1,26 @@
 ### Exercise 8. Row Operations and Their Reversibility
 
-**Result**
+## Question
+
+For the matrix:
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 & -1 \\
+2 & 4 & 1 \\
+-1 & 1 & 3 \\
+\end{pmatrix}
+$$
+
+Perform, in order:
+1. $R_2\leftarrow R_2-2R_1$,
+2. $R_3\leftarrow R_3+R_1$,
+3. interchange $R_2$ and $R_3$.
+
+Write the matrix after each step. Then, for each of the three operations, state an operation that reverses it.
+
+## Solution
 
 Step 1: $R_2 \leftarrow R_2 - 2R_1$
 
@@ -38,6 +58,4 @@ $$
 
 The reverse operation is to interchange $R_2$ and $R_3$ again.
 
-**Explanation**
-
-You can change rows around (like adding them together or swapping them) to solve systems. This shows that every move you make has an exact opposite move that can undo it, so you never permanently break the matrix.
+You can change rows around to solve systems. This shows that every move you make has an exact opposite move that can undo it, meaning row operations do not permanently destroy or break the underlying data.

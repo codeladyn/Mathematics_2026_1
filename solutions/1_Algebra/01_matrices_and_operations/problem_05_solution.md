@@ -1,6 +1,24 @@
 ### Exercise 5. Matrix Times Vector
 
-**Result**
+## Question
+
+Let the matrix and vector be given as:
+
+$$
+A=
+\begin{pmatrix}
+2 & -1 \\
+1 & 3 \\
+\end{pmatrix},\qquad x=
+\begin{pmatrix}
+4 \\
+2 \\
+\end{pmatrix}
+$$
+
+Compute $Ax$. Then express $Ax$ as a linear combination of the columns of $A$, with coefficients coming from the vector $x$.
+
+## Solution
 
 $$
 \begin{aligned}
@@ -50,6 +68,5 @@ Ax &=
 \end{pmatrix}
 \end{aligned}
 $$
-**Explanation**
 
 Multiplying a matrix by a column vector is just a shortcut for taking the columns of the matrix, multiplying each one by a number from the vector, and adding them all together.

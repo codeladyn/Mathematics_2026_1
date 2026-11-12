@@ -1,6 +1,35 @@
 ### Exercise 9. Composing Transformations
 
-**Result**
+## Question
+
+Let:
+
+$$
+S=
+\begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix},\qquad R=
+\begin{pmatrix}
+0 & -1 \\
+1 & 0 \\
+\end{pmatrix}
+$$
+
+The matrix $S$ describes nonuniform scaling, while $R$ describes a $90^\circ$ counterclockwise rotation.
+For the vector:
+
+$$
+x=
+\begin{pmatrix}
+1 \\
+2 \\
+\end{pmatrix}
+$$
+
+Compute $RSx$ and $SRx$. Compare the results and explain geometrically why the order of these transformations matters.
+
+## Solution
 
 First, compute $RSx$:
 
@@ -82,6 +111,4 @@ S(Rx) &=
 \end{aligned}
 $$
 
-**Explanation**
-
-Matrix multiplication is just doing one visual transformation after another. Order matters! Stretching a shape and then rotating it gives you a totally different result than rotating it first and then stretching it.
+The results are totally different. Matrix multiplication is doing one visual transformation after another, and order matters! Stretching a shape and then rotating it ($RSx$) gives you a different result than rotating it first and then stretching the new shape ($SRx$).

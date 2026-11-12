@@ -1,6 +1,25 @@
 ### Exercise 6. Transpose
 
-**Result**
+## Question
+
+For the matrices:
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+1 & 0 \\
+2 & 1 \\
+-1 & 3 \\
+\end{pmatrix}
+$$
+
+Compute $A^T$, $B^T$, and $AB$. Then verify in this example that $(AB)^T=B^TA^T$.
+
+## Solution
 
 $$
 A^T =
@@ -71,6 +90,4 @@ B^T A^T &=
 \end{aligned}
 $$
 
-**Explanation**
-
-To transpose a matrix, you just swap its rows and columns. This exercise shows a cool rule: if you multiply two matrices and then transpose the answer, it's the exact same as transposing them first and multiplying them in reverse order.
+To transpose a matrix, you swap its rows and columns. This exercise proves a rule: if you multiply two matrices and then transpose the answer, it gives the exact same result as transposing them first and multiplying them in reverse order.
